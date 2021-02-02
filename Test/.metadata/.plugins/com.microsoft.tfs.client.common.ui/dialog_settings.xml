@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="wizard-EclipseTeamProjectWizard">
+	</section>
+	<section name="com.microsoft.tfs.client.common.ui.dialogs.connect.ServerListDialog">
+		<item key="SINCE" value="01/29/21 08:37:10"/>
+		<item key="VIEWS" value="4"/>
+		<item key="ACCUMULATED_OPEN_TIME" value="2857730"/>
+		<item key="TIME_COUNTS" value="4"/>
+		<item key="DIALOG_ORIGIN_X" value="602"/>
+		<item key="DIALOG_ORIGIN_Y" value="134"/>
+		<item key="DIALOG_WIDTH" value="987"/>
+		<item key="DIALOG_HEIGHT" value="477"/>
+	</section>
+	<section name="com.microsoft.tfs.client.common.ui.dialogs.connect.CredentialsDialog">
+		<item key="SINCE" value="01/29/21 08:37:23"/>
+		<item key="VIEWS" value="4"/>
+		<item key="ACCUMULATED_OPEN_TIME" value="2807514"/>
+		<item key="TIME_COUNTS" value="4"/>
+		<item key="DIALOG_ORIGIN_X" value="671"/>
+		<item key="DIALOG_ORIGIN_Y" value="301"/>
+		<item key="DIALOG_WIDTH" value="646"/>
+		<item key="DIALOG_HEIGHT" value="293"/>
+	</section>
+</section>

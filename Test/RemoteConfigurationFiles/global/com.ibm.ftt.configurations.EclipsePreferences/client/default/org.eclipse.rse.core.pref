@@ -1,0 +1,15 @@
+# 
+#Fri Jan 29 18:07:55 MST 2021
+org.eclipse.rse.systemtype.unix.systemType.enabled=true
+# 
+#Fri Jan 29 18:07:55 MST 2021
+org.eclipse.rse.systemtype.linux.systemType.enabled=true
+# 
+#Fri Jan 29 18:07:55 MST 2021
+org.eclipse.rse.systemtype.telnet.systemType.enabled=true
+# 
+#Fri Jan 29 18:07:55 MST 2021
+org.eclipse.rse.systemtype.ftp.systemType.enabled=true
+# 
+#Fri Jan 29 18:07:55 MST 2021
+org.eclipse.rse.systemtype.windows.systemType.enabled=true

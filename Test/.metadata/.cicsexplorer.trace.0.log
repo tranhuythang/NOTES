@@ -1,0 +1,685 @@
+com.ibm.cics.eclipse.common.runtime_3.0.0.202012021857
+2021/01/29 08:32:46.804 MST [1] > com.ibm.cics.core.comm.ExplorerSecurityHelper.setPassphraseManager()
+2021/01/29 08:32:46.804 MST [1] < com.ibm.cics.core.comm.ExplorerSecurityHelper.setPassphraseManager()
+2021/01/29 08:32:46.805 MST [1] > com.ibm.cics.core.comm.internal.ConnectionsPreferenceInitializer.initializeDefaultPreferences()
+2021/01/29 08:32:46.806 MST [1] < com.ibm.cics.core.comm.internal.ConnectionsPreferenceInitializer.initializeDefaultPreferences()
+2021/01/29 08:32:46.872 MST [1] > com.ibm.cics.core.connections.internal.PassphraseManager.setTrustStorePassphrase()
+2021/01/29 08:32:46.964 MST [1] > com.ibm.cics.common.util.EventManager.notifyListeners() [com.ibm.cics.core.connections.CredentialsManagerListener$CredentialAddedEvent@193c810]
+2021/01/29 08:32:46.965 MST [1] < com.ibm.cics.common.util.EventManager.notifyListeners()
+2021/01/29 08:32:46.965 MST [1] < com.ibm.cics.core.connections.internal.PassphraseManager.setTrustStorePassphrase()
+2021/01/29 08:32:46.965 MST [1] > com.ibm.cics.core.connections.internal.PassphraseManager.setKeyStorePassphrase()
+2021/01/29 08:32:46.972 MST [1] > com.ibm.cics.common.util.EventManager.notifyListeners() [com.ibm.cics.core.connections.CredentialsManagerListener$CredentialAddedEvent@57edfa89]
+2021/01/29 08:32:46.972 MST [1] < com.ibm.cics.common.util.EventManager.notifyListeners()
+2021/01/29 08:32:46.972 MST [1] < com.ibm.cics.core.connections.internal.PassphraseManager.setKeyStorePassphrase()
+2021/01/29 08:32:46.978 MST [1] > com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.getLocalProviderPath()
+2021/01/29 08:32:46.978 MST [1] < com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.getLocalProviderPath() [D:/Test/.metadata/.plugins/com.ibm.cics.core.connections/local.xml]
+2021/01/29 08:32:46.982 MST [1] > com.ibm.cics.core.comm.ConnectionRegistry.readConnection() [ConfigurationElementHandle [name: connection, id: com.ibm.cics.zos.comm.connection.ftp, handle id: 33643, namespace: com.ibm.cics.zos.comm.ftp]]
+2021/01/29 08:32:46.983 MST [1] < com.ibm.cics.core.comm.ConnectionRegistry.readConnection() [added: com.ibm.cics.core.comm.internal.ConnectionDescriptor[z/OS FTP, com.ibm.cics.zos.comm.connection.ftp]]
+2021/01/29 08:32:46.983 MST [1] > com.ibm.cics.core.comm.ConnectionRegistry.readConnection() [ConfigurationElementHandle [name: connection, id: com.ibm.cics.zosmf.comm.connection, handle id: 33994, namespace: com.ibm.cics.zosmf.comm]]
+2021/01/29 08:32:46.983 MST [1] < com.ibm.cics.core.comm.ConnectionRegistry.readConnection() [added: com.ibm.cics.core.comm.internal.ConnectionDescriptor[z/OSMF, com.ibm.cics.zosmf.comm.connection]]
+2021/01/29 08:32:46.983 MST [1] > com.ibm.cics.core.comm.ConnectionRegistry.readConnection() [ConfigurationElementHandle [name: connection, id: com.ibm.ftt.cics.rse.RSE.connection, handle id: 34134, namespace: com.ibm.ftt.cics.rse]]
+2021/01/29 08:32:46.983 MST [1] < com.ibm.cics.core.comm.ConnectionRegistry.readConnection() [added: com.ibm.cics.core.comm.internal.ConnectionDescriptor[z/OS Remote System, com.ibm.ftt.cics.rse.RSE.connection]]
+2021/01/29 08:32:46.984 MST [1] > com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.addConnectionProvider() [com.ibm.cics.core.connections.internal.WritableFileConnectionProvider@7a3f3bc4]
+2021/01/29 08:32:46.984 MST [1] > com.ibm.cics.core.connections.AbstractConnectionProvider.addListener() [com.ibm.cics.core.connections.internal.ConnectionProviderRegistry$1@8cd2bb5]
+2021/01/29 08:32:46.984 MST [1] > com.ibm.cics.common.util.EventManager.addListener() [com.ibm.cics.core.connections.internal.ConnectionProviderRegistry$1@8cd2bb5]
+2021/01/29 08:32:46.985 MST [1] < com.ibm.cics.common.util.EventManager.addListener() [[com.ibm.cics.core.connections.internal.ConnectionProviderRegistry$1@8cd2bb5]]
+2021/01/29 08:32:46.985 MST [1] < com.ibm.cics.core.connections.AbstractConnectionProvider.addListener()
+2021/01/29 08:32:46.985 MST [1] > com.ibm.cics.core.connections.AbstractConnectionProvider.refresh() [org.eclipse.core.runtime.NullProgressMonitor@1a3611b1]
+2021/01/29 08:32:46.986 MST [1] > com.ibm.cics.common.util.EventManager.notifyListeners() [com.ibm.cics.core.connections.IConnectionProvider$ConnectionProviderStatusChangedEvent@57859e2c]
+2021/01/29 08:32:46.986 MST [1] Notifying: com.ibm.cics.core.connections.internal.ConnectionProviderRegistry$1@8cd2bb5 com.ibm.cics.common.util.EventManager.notifyListeners()
+2021/01/29 08:32:46.986 MST [1] < com.ibm.cics.common.util.EventManager.notifyListeners()
+2021/01/29 08:32:46.986 MST [1] < com.ibm.cics.core.connections.AbstractConnectionProvider.refresh() [Status OK: unknown code=0 OK null]
+2021/01/29 08:32:46.986 MST [1] > com.ibm.cics.common.util.EventManager.notifyListeners() [com.ibm.cics.core.connections.IConnectionProviderRegistry$ConnectionProviderAddedEvent@4b9dd787]
+2021/01/29 08:32:46.986 MST [1] < com.ibm.cics.common.util.EventManager.notifyListeners()
+2021/01/29 08:32:46.986 MST [1] < com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.addConnectionProvider()
+2021/01/29 08:32:46.987 MST [1] > com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.addPersistedFileConnectionProviders()
+2021/01/29 08:32:46.987 MST [1] < com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.addPersistedFileConnectionProviders()
+2021/01/29 08:32:46.987 MST [1] > com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.addExtensionPointProviders()
+2021/01/29 08:32:46.987 MST [1] > com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.readExtension() [org.eclipse.core.internal.registry.ExtensionHandle@8559]
+2021/01/29 08:32:46.987 MST [1] > com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.readElement() [ConfigurationElementHandle [name: connectionProvider, handle id: 34138, namespace: com.ibm.ftt.cics.rse]]
+2021/01/29 08:32:46.987 MST [1] > com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.readConnectionProvider() [ConfigurationElementHandle [name: connectionProvider, handle id: 34138, namespace: com.ibm.ftt.cics.rse]]
+2021/01/29 08:32:47.071 MST [1] > com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.addConnectionProvider() [com.ibm.ftt.cics.rse.connection.RSEConnectionProvider@1a3e8b68]
+2021/01/29 08:32:47.071 MST [1] > com.ibm.cics.core.connections.AbstractConnectionProvider.addListener() [com.ibm.cics.core.connections.internal.ConnectionProviderRegistry$1@5935eb9c]
+2021/01/29 08:32:47.071 MST [1] > com.ibm.cics.common.util.EventManager.addListener() [com.ibm.cics.core.connections.internal.ConnectionProviderRegistry$1@5935eb9c]
+2021/01/29 08:32:47.071 MST [1] < com.ibm.cics.common.util.EventManager.addListener() [[com.ibm.cics.core.connections.internal.ConnectionProviderRegistry$1@5935eb9c]]
+2021/01/29 08:32:47.071 MST [1] < com.ibm.cics.core.connections.AbstractConnectionProvider.addListener()
+2021/01/29 08:32:47.071 MST [1] > com.ibm.cics.core.connections.AbstractConnectionProvider.refresh() [org.eclipse.core.runtime.NullProgressMonitor@fc6cac6]
+2021/01/29 08:32:47.073 MST [1] > com.ibm.cics.common.util.EventManager.notifyListeners() [com.ibm.cics.core.connections.IConnectionProvider$ConnectionProviderStatusChangedEvent@481f698f]
+2021/01/29 08:32:47.073 MST [1] Notifying: com.ibm.cics.core.connections.internal.ConnectionProviderRegistry$1@5935eb9c com.ibm.cics.common.util.EventManager.notifyListeners()
+2021/01/29 08:32:47.073 MST [1] < com.ibm.cics.common.util.EventManager.notifyListeners()
+2021/01/29 08:32:47.073 MST [1] < com.ibm.cics.core.connections.AbstractConnectionProvider.refresh() [Status OK: unknown code=0 OK null]
+2021/01/29 08:32:47.073 MST [1] > com.ibm.cics.common.util.EventManager.notifyListeners() [com.ibm.cics.core.connections.IConnectionProviderRegistry$ConnectionProviderAddedEvent@41ae9f11]
+2021/01/29 08:32:47.073 MST [1] < com.ibm.cics.common.util.EventManager.notifyListeners()
+2021/01/29 08:32:47.073 MST [1] < com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.addConnectionProvider()
+2021/01/29 08:32:47.073 MST [1] addedcom.ibm.ftt.cics.rse.connection.RSEConnectionProvider@1a3e8b68 com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.readConnectionProvider()
+2021/01/29 08:32:47.074 MST [1] < com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.readConnectionProvider()
+2021/01/29 08:32:47.074 MST [1] < com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.readElement()
+2021/01/29 08:32:47.074 MST [1] < com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.readExtension()
+2021/01/29 08:32:47.074 MST [1] < com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.addExtensionPointProviders()
+2021/01/29 08:32:47.088 MST [1] > com.ibm.cics.core.connections.internal.ConnectionCredentialsManager.ConnectionCredentialsManager()
+2021/01/29 08:32:47.088 MST [1] > com.ibm.cics.common.util.EventManager.addListener() [com.ibm.cics.core.connections.internal.ConnectionCredentialsManager$1@5d3d5242]
+2021/01/29 08:32:47.088 MST [1] < com.ibm.cics.common.util.EventManager.addListener() [[com.ibm.cics.core.connections.internal.ConnectionCredentialsManager$1@5d3d5242]]
+2021/01/29 08:32:47.088 MST [1] < com.ibm.cics.core.connections.internal.ConnectionCredentialsManager.ConnectionCredentialsManager() [D:/Test/.metadata/.plugins/com.ibm.cics.core.connections/credentialMappings.xml]
+2021/01/29 08:32:47.089 MST [1] > com.ibm.cics.core.connections.internal.ConnectionManager.<init>()
+2021/01/29 08:32:47.090 MST [1] > com.ibm.cics.common.util.EventManager.addListener() [com.ibm.cics.core.connections.internal.ConnectionManager$1@2cbae0f1]
+2021/01/29 08:32:47.090 MST [1] < com.ibm.cics.common.util.EventManager.addListener() [[com.ibm.cics.core.connections.internal.ConnectionManager$1@2cbae0f1]]
+2021/01/29 08:32:47.090 MST [1] > com.ibm.cics.core.connections.AbstractConnectionProvider.getConnections()
+2021/01/29 08:32:47.090 MST [1] < com.ibm.cics.core.connections.AbstractConnectionProvider.getConnections() [[]]
+2021/01/29 08:32:47.090 MST [1] > com.ibm.cics.core.connections.AbstractConnectionProvider.addListener() [com.ibm.cics.core.connections.internal.ConnectionManager$CacheUpdatingListener@3bf4b018]
+2021/01/29 08:32:47.090 MST [1] > com.ibm.cics.common.util.EventManager.addListener() [com.ibm.cics.core.connections.internal.ConnectionManager$CacheUpdatingListener@3bf4b018]
+2021/01/29 08:32:47.090 MST [1] < com.ibm.cics.common.util.EventManager.addListener() [[com.ibm.cics.core.connections.internal.ConnectionProviderRegistry$1@5935eb9c, com.ibm.cics.core.connections.internal.ConnectionManager$CacheUpdatingListener@3bf4b018]]
+2021/01/29 08:32:47.090 MST [1] < com.ibm.cics.core.connections.AbstractConnectionProvider.addListener()
+2021/01/29 08:32:47.090 MST [1] > com.ibm.cics.core.connections.AbstractConnectionProvider.getConnections()
+2021/01/29 08:32:47.090 MST [1] < com.ibm.cics.core.connections.AbstractConnectionProvider.getConnections() [[]]
+2021/01/29 08:32:47.090 MST [1] > com.ibm.cics.core.connections.AbstractConnectionProvider.addListener() [com.ibm.cics.core.connections.internal.ConnectionManager$CacheUpdatingListener@d8cece4]
+2021/01/29 08:32:47.090 MST [1] > com.ibm.cics.common.util.EventManager.addListener() [com.ibm.cics.core.connections.internal.ConnectionManager$CacheUpdatingListener@d8cece4]
+2021/01/29 08:32:47.090 MST [1] < com.ibm.cics.common.util.EventManager.addListener() [[com.ibm.cics.core.connections.internal.ConnectionProviderRegistry$1@8cd2bb5, com.ibm.cics.core.connections.internal.ConnectionManager$CacheUpdatingListener@d8cece4]]
+2021/01/29 08:32:47.090 MST [1] < com.ibm.cics.core.connections.AbstractConnectionProvider.addListener()
+2021/01/29 08:32:47.090 MST [1] > com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.addListener() [com.ibm.cics.core.connections.internal.ConnectionManager$2@55d98bbb]
+2021/01/29 08:32:47.090 MST [1] > com.ibm.cics.common.util.EventManager.addListener() [com.ibm.cics.core.connections.internal.ConnectionManager$2@55d98bbb]
+2021/01/29 08:32:47.090 MST [1] < com.ibm.cics.common.util.EventManager.addListener() [[com.ibm.cics.core.connections.internal.ConnectionManager$2@55d98bbb]]
+2021/01/29 08:32:47.090 MST [1] < com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.addListener()
+2021/01/29 08:32:47.090 MST [1] < com.ibm.cics.core.connections.internal.ConnectionManager.<init>() [com.ibm.cics.core.connections.internal.ConnectionManager@2e9f5499]
+2021/01/29 08:32:47.091 MST [1] > com.ibm.cics.common.util.EventManager.addListener() [com.ibm.cics.core.connections.internal.DefaultConnectionService$1@18174bd9]
+2021/01/29 08:32:47.091 MST [1] < com.ibm.cics.common.util.EventManager.addListener() [[com.ibm.cics.core.connections.internal.DefaultConnectionService$1@18174bd9]]
+2021/01/29 08:32:47.092 MST [1] > com.ibm.cics.common.util.EventManager.addListener() [com.ibm.cics.core.connections.internal.DefaultConnectionDeserializer$1@649a6d88]
+2021/01/29 08:32:47.092 MST [1] < com.ibm.cics.common.util.EventManager.addListener() [[com.ibm.cics.core.connections.internal.DefaultConnectionDeserializer$1@649a6d88]]
+2021/01/29 08:32:47.096 MST [1] > com.ibm.cics.common.util.EventManager.addListener() [com.ibm.cics.core.connections.internal.ConnectionService$2@85fd4b]
+2021/01/29 08:32:47.096 MST [1] < com.ibm.cics.common.util.EventManager.addListener() [[com.ibm.cics.core.connections.internal.DefaultConnectionService$1@18174bd9, com.ibm.cics.core.connections.internal.ConnectionService$2@85fd4b]]
+2021/01/29 08:32:47.096 MST [1] > com.ibm.cics.common.util.EventManager.addListener() [com.ibm.cics.core.connections.internal.InternalConnectionsPlugin$1@6715a6da]
+2021/01/29 08:32:47.096 MST [1] < com.ibm.cics.common.util.EventManager.addListener() [[com.ibm.cics.core.connections.internal.InternalConnectionsPlugin$1@6715a6da]]
+2021/01/29 08:32:47.098 MST [1] > com.ibm.cics.common.util.EventManager.addListener() [com.ibm.cics.core.connections.ConnectionWidgetManager$2@1c3400df]
+2021/01/29 08:32:47.098 MST [1] < com.ibm.cics.common.util.EventManager.addListener() [[com.ibm.cics.core.connections.internal.InternalConnectionsPlugin$1@6715a6da, com.ibm.cics.core.connections.ConnectionWidgetManager$2@1c3400df]]
+2021/01/29 08:32:47.098 MST [1] > com.ibm.cics.common.util.EventManager.addListener() [com.ibm.cics.core.connections.ConnectionWidgetManager$1@7be9e9fc]
+2021/01/29 08:32:47.098 MST [1] < com.ibm.cics.common.util.EventManager.addListener() [[com.ibm.cics.core.connections.internal.DefaultConnectionService$1@18174bd9, com.ibm.cics.core.connections.internal.ConnectionService$2@85fd4b, com.ibm.cics.core.connections.ConnectionWidgetManager$1@7be9e9fc]]
+2021/01/29 08:32:47.098 MST [1] > com.ibm.cics.core.connections.ConnectionWidgetManager.initializeStates()
+2021/01/29 08:32:47.098 MST [1] < com.ibm.cics.core.connections.ConnectionWidgetManager.initializeStates()
+2021/01/29 08:32:56.337 MST [48] > com.ibm.cics.core.connections.internal.ConnectionsStartup.earlyStartup() [com.ibm.cics.core.connections.internal.ConnectionsStartup@10f18bcf]
+2021/01/29 08:32:56.338 MST [48] < com.ibm.cics.core.connections.internal.ConnectionsStartup.earlyStartup()
+2021/01/29 08:32:56.397 MST [48] - com.ibm.cics.zos.model.ZOSConnectable.<init>() [com.ibm.cics.zos.model.ZOSConnectable@5718622b]
+2021/01/29 08:32:57.587 MST [1] - com.ibm.cics.core.connections.internal.ConnectionsStartup.earlyStartup() [com.ibm.cics.core.connections.internal.ConnectionsStartup$1@45339f9, org.eclipse.ui.internal.WorkbenchWindow@22dddb13]
+2021/01/29 08:32:57.588 MST [1] > com.ibm.cics.common.util.EventManager.addListener() [com.ibm.cics.core.connections.internal.ConnectionsStartup$1$1@1f879e78]
+2021/01/29 08:32:57.589 MST [1] < com.ibm.cics.common.util.EventManager.addListener() [[com.ibm.cics.core.connections.internal.InternalConnectionsPlugin$1@6715a6da, com.ibm.cics.core.connections.ConnectionWidgetManager$2@1c3400df, com.ibm.cics.core.connections.internal.ConnectionsStartup$1$1@1f879e78]]
+2021/01/29 08:32:57.599 MST [1]  com.ibm.cics.eclipse.common.AbstractContextManager.AbstractConnectionContextManager()<init>()
+2021/01/29 08:32:57.599 MST [1] > com.ibm.cics.eclipse.common.AbstractContextManager.deactivate() [com.ibm.cics.zos.explorer.cancreatedataset.context]
+2021/01/29 08:32:57.599 MST [1] < com.ibm.cics.eclipse.common.AbstractContextManager.deactivate() [com.ibm.cics.zos.explorer.cancreatedataset.context]
+2021/01/29 08:32:57.599 MST [1] > com.ibm.cics.common.util.EventManager.addListener() [com.ibm.cics.zos.ui.ZOSConnectionContextManager$1@477367ad]
+2021/01/29 08:32:57.599 MST [1] < com.ibm.cics.common.util.EventManager.addListener() [[com.ibm.cics.core.connections.internal.InternalConnectionsPlugin$1@6715a6da, com.ibm.cics.core.connections.ConnectionWidgetManager$2@1c3400df, com.ibm.cics.core.connections.internal.ConnectionsStartup$1$1@1f879e78, com.ibm.cics.zos.ui.ZOSConnectionContextManager$1@477367ad]]
+2021/01/29 08:33:19.239 MST [1] ! com.ibm.cics.eclipse.common.logging.ToJavaEclipseLogListener.logging() [java.lang.NoClassDefFoundError: org/slf4j/LoggerFactory]
+java.lang.NoClassDefFoundError: org/slf4j/LoggerFactory
+	at com.microsoft.alm.auth.BaseAuthenticator.<clinit>(BaseAuthenticator.java:27)
+	at com.microsoft.tfs.client.common.ui.helpers.CredentialsHelper.removeOAuth2Token(CredentialsHelper.java:205)
+	at com.microsoft.tfs.client.common.ui.helpers.CredentialsHelper.removeStaleOAuth2Token(CredentialsHelper.java:200)
+	at com.microsoft.tfs.client.common.ui.helpers.CredentialsHelper.getOAuthCredentials(CredentialsHelper.java:109)
+	at com.microsoft.tfs.client.common.ui.wizard.common.WizardServerSelectionPage.getAzureAccessToken(WizardServerSelectionPage.java:249)
+	at com.microsoft.tfs.client.common.ui.wizard.common.WizardServerSelectionPage.getUserAccounts(WizardServerSelectionPage.java:138)
+	at com.microsoft.tfs.client.common.ui.wizard.common.WizardServerSelectionPage.onPageFinished(WizardServerSelectionPage.java:112)
+	at com.microsoft.tfs.client.common.ui.framework.wizard.ExtendedWizardPage.getNextPage(ExtendedWizardPage.java:127)
+	at org.eclipse.jface.wizard.WizardDialog.nextPressed(WizardDialog.java:910)
+	at org.eclipse.jface.wizard.WizardDialog.buttonPressed(WizardDialog.java:468)
+	at org.eclipse.jface.dialogs.Dialog.lambda$0(Dialog.java:619)
+	at org.eclipse.swt.events.SelectionListener$1.widgetSelected(SelectionListener.java:84)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4213)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1037)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4030)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3630)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:823)
+	at org.eclipse.jface.window.Window.open(Window.java:799)
+	at com.microsoft.tfs.client.common.ui.teamexplorer.helpers.ConnectHelpers.connectToServer(ConnectHelpers.java:33)
+	at com.microsoft.tfs.client.common.ui.teamexplorer.pages.TeamExplorerHomePage$4.linkActivated(TeamExplorerHomePage.java:157)
+	at org.eclipse.ui.forms.widgets.AbstractHyperlink.handleActivate(AbstractHyperlink.java:215)
+	at org.eclipse.ui.forms.widgets.AbstractHyperlink.handleMouseUp(AbstractHyperlink.java:309)
+	at org.eclipse.ui.forms.widgets.AbstractHyperlink.lambda$3(AbstractHyperlink.java:117)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4213)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1037)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4030)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3630)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1158)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1047)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:658)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:557)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:154)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:150)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:657)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1447)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1420)
+Caused by: java.lang.ClassNotFoundException: org.slf4j.LoggerFactory cannot be found by com.microsoft.tfs.core_14.135.0.202010141426
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:516)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:171)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:351)
+	... 52 more
+java.lang.ClassNotFoundException: org.slf4j.LoggerFactory cannot be found by com.microsoft.tfs.core_14.135.0.202010141426
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:516)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:171)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:351)
+	at com.microsoft.alm.auth.BaseAuthenticator.<clinit>(BaseAuthenticator.java:27)
+	at com.microsoft.tfs.client.common.ui.helpers.CredentialsHelper.removeOAuth2Token(CredentialsHelper.java:205)
+	at com.microsoft.tfs.client.common.ui.helpers.CredentialsHelper.removeStaleOAuth2Token(CredentialsHelper.java:200)
+	at com.microsoft.tfs.client.common.ui.helpers.CredentialsHelper.getOAuthCredentials(CredentialsHelper.java:109)
+	at com.microsoft.tfs.client.common.ui.wizard.common.WizardServerSelectionPage.getAzureAccessToken(WizardServerSelectionPage.java:249)
+	at com.microsoft.tfs.client.common.ui.wizard.common.WizardServerSelectionPage.getUserAccounts(WizardServerSelectionPage.java:138)
+	at com.microsoft.tfs.client.common.ui.wizard.common.WizardServerSelectionPage.onPageFinished(WizardServerSelectionPage.java:112)
+	at com.microsoft.tfs.client.common.ui.framework.wizard.ExtendedWizardPage.getNextPage(ExtendedWizardPage.java:127)
+	at org.eclipse.jface.wizard.WizardDialog.nextPressed(WizardDialog.java:910)
+	at org.eclipse.jface.wizard.WizardDialog.buttonPressed(WizardDialog.java:468)
+	at org.eclipse.jface.dialogs.Dialog.lambda$0(Dialog.java:619)
+	at org.eclipse.swt.events.SelectionListener$1.widgetSelected(SelectionListener.java:84)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4213)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1037)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4030)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3630)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:823)
+	at org.eclipse.jface.window.Window.open(Window.java:799)
+	at com.microsoft.tfs.client.common.ui.teamexplorer.helpers.ConnectHelpers.connectToServer(ConnectHelpers.java:33)
+	at com.microsoft.tfs.client.common.ui.teamexplorer.pages.TeamExplorerHomePage$4.linkActivated(TeamExplorerHomePage.java:157)
+	at org.eclipse.ui.forms.widgets.AbstractHyperlink.handleActivate(AbstractHyperlink.java:215)
+	at org.eclipse.ui.forms.widgets.AbstractHyperlink.handleMouseUp(AbstractHyperlink.java:309)
+	at org.eclipse.ui.forms.widgets.AbstractHyperlink.lambda$3(AbstractHyperlink.java:117)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4213)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1037)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4030)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3630)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1158)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1047)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:658)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:557)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:154)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:150)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:657)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1447)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1420)
+
+2021/01/29 08:33:20.246 MST [1] ! com.ibm.cics.eclipse.common.logging.ToJavaEclipseLogListener.logging() [java.lang.NoClassDefFoundError: Could not initialize class com.microsoft.alm.auth.oauth.OAuth2Authenticator]
+java.lang.NoClassDefFoundError: Could not initialize class com.microsoft.alm.auth.oauth.OAuth2Authenticator
+	at com.microsoft.tfs.client.common.ui.helpers.CredentialsHelper.removeOAuth2Token(CredentialsHelper.java:205)
+	at com.microsoft.tfs.client.common.ui.helpers.CredentialsHelper.removeStaleOAuth2Token(CredentialsHelper.java:200)
+	at com.microsoft.tfs.client.common.ui.helpers.CredentialsHelper.getOAuthCredentials(CredentialsHelper.java:109)
+	at com.microsoft.tfs.client.common.ui.wizard.common.WizardServerSelectionPage.getAzureAccessToken(WizardServerSelectionPage.java:249)
+	at com.microsoft.tfs.client.common.ui.wizard.common.WizardServerSelectionPage.getUserAccounts(WizardServerSelectionPage.java:138)
+	at com.microsoft.tfs.client.common.ui.wizard.common.WizardServerSelectionPage.onPageFinished(WizardServerSelectionPage.java:112)
+	at com.microsoft.tfs.client.common.ui.framework.wizard.ExtendedWizardPage.getNextPage(ExtendedWizardPage.java:127)
+	at org.eclipse.jface.wizard.WizardDialog.nextPressed(WizardDialog.java:910)
+	at org.eclipse.jface.wizard.WizardDialog.buttonPressed(WizardDialog.java:468)
+	at org.eclipse.jface.dialogs.Dialog.lambda$0(Dialog.java:619)
+	at org.eclipse.swt.events.SelectionListener$1.widgetSelected(SelectionListener.java:84)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4213)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1037)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4030)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3630)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:823)
+	at org.eclipse.jface.window.Window.open(Window.java:799)
+	at com.microsoft.tfs.client.common.ui.teamexplorer.helpers.ConnectHelpers.connectToServer(ConnectHelpers.java:33)
+	at com.microsoft.tfs.client.common.ui.teamexplorer.pages.TeamExplorerHomePage$4.linkActivated(TeamExplorerHomePage.java:157)
+	at org.eclipse.ui.forms.widgets.AbstractHyperlink.handleActivate(AbstractHyperlink.java:215)
+	at org.eclipse.ui.forms.widgets.AbstractHyperlink.handleMouseUp(AbstractHyperlink.java:309)
+	at org.eclipse.ui.forms.widgets.AbstractHyperlink.lambda$3(AbstractHyperlink.java:117)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4213)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1037)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4030)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3630)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1158)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1047)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:658)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:557)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:154)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:150)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:657)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1447)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1420)
+
+2021/01/29 08:33:20.685 MST [1] ! com.ibm.cics.eclipse.common.logging.ToJavaEclipseLogListener.logging() [java.lang.NoClassDefFoundError: Could not initialize class com.microsoft.alm.auth.oauth.OAuth2Authenticator]
+java.lang.NoClassDefFoundError: Could not initialize class com.microsoft.alm.auth.oauth.OAuth2Authenticator
+	at com.microsoft.tfs.client.common.ui.helpers.CredentialsHelper.removeOAuth2Token(CredentialsHelper.java:205)
+	at com.microsoft.tfs.client.common.ui.helpers.CredentialsHelper.removeStaleOAuth2Token(CredentialsHelper.java:200)
+	at com.microsoft.tfs.client.common.ui.helpers.CredentialsHelper.getOAuthCredentials(CredentialsHelper.java:109)
+	at com.microsoft.tfs.client.common.ui.wizard.common.WizardServerSelectionPage.getAzureAccessToken(WizardServerSelectionPage.java:249)
+	at com.microsoft.tfs.client.common.ui.wizard.common.WizardServerSelectionPage.getUserAccounts(WizardServerSelectionPage.java:138)
+	at com.microsoft.tfs.client.common.ui.wizard.common.WizardServerSelectionPage.onPageFinished(WizardServerSelectionPage.java:112)
+	at com.microsoft.tfs.client.common.ui.framework.wizard.ExtendedWizardPage.getNextPage(ExtendedWizardPage.java:127)
+	at org.eclipse.jface.wizard.WizardDialog.nextPressed(WizardDialog.java:910)
+	at org.eclipse.jface.wizard.WizardDialog.buttonPressed(WizardDialog.java:468)
+	at org.eclipse.jface.dialogs.Dialog.lambda$0(Dialog.java:619)
+	at org.eclipse.swt.events.SelectionListener$1.widgetSelected(SelectionListener.java:84)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4213)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1037)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4030)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3630)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:823)
+	at org.eclipse.jface.window.Window.open(Window.java:799)
+	at com.microsoft.tfs.client.common.ui.teamexplorer.helpers.ConnectHelpers.connectToServer(ConnectHelpers.java:33)
+	at com.microsoft.tfs.client.common.ui.teamexplorer.pages.TeamExplorerHomePage$4.linkActivated(TeamExplorerHomePage.java:157)
+	at org.eclipse.ui.forms.widgets.AbstractHyperlink.handleActivate(AbstractHyperlink.java:215)
+	at org.eclipse.ui.forms.widgets.AbstractHyperlink.handleMouseUp(AbstractHyperlink.java:309)
+	at org.eclipse.ui.forms.widgets.AbstractHyperlink.lambda$3(AbstractHyperlink.java:117)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4213)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1037)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4030)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3630)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1158)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1047)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:658)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:557)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:154)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:150)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:657)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1447)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1420)
+
+2021/01/29 08:33:20.958 MST [1] ! com.ibm.cics.eclipse.common.logging.ToJavaEclipseLogListener.logging() [java.lang.NoClassDefFoundError: Could not initialize class com.microsoft.alm.auth.oauth.OAuth2Authenticator]
+java.lang.NoClassDefFoundError: Could not initialize class com.microsoft.alm.auth.oauth.OAuth2Authenticator
+	at com.microsoft.tfs.client.common.ui.helpers.CredentialsHelper.removeOAuth2Token(CredentialsHelper.java:205)
+	at com.microsoft.tfs.client.common.ui.helpers.CredentialsHelper.removeStaleOAuth2Token(CredentialsHelper.java:200)
+	at com.microsoft.tfs.client.common.ui.helpers.CredentialsHelper.getOAuthCredentials(CredentialsHelper.java:109)
+	at com.microsoft.tfs.client.common.ui.wizard.common.WizardServerSelectionPage.getAzureAccessToken(WizardServerSelectionPage.java:249)
+	at com.microsoft.tfs.client.common.ui.wizard.common.WizardServerSelectionPage.getUserAccounts(WizardServerSelectionPage.java:138)
+	at com.microsoft.tfs.client.common.ui.wizard.common.WizardServerSelectionPage.onPageFinished(WizardServerSelectionPage.java:112)
+	at com.microsoft.tfs.client.common.ui.framework.wizard.ExtendedWizardPage.getNextPage(ExtendedWizardPage.java:127)
+	at org.eclipse.jface.wizard.WizardDialog.nextPressed(WizardDialog.java:910)
+	at org.eclipse.jface.wizard.WizardDialog.buttonPressed(WizardDialog.java:468)
+	at org.eclipse.jface.dialogs.Dialog.lambda$0(Dialog.java:619)
+	at org.eclipse.swt.events.SelectionListener$1.widgetSelected(SelectionListener.java:84)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4213)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1037)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4030)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3630)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:823)
+	at org.eclipse.jface.window.Window.open(Window.java:799)
+	at com.microsoft.tfs.client.common.ui.teamexplorer.helpers.ConnectHelpers.connectToServer(ConnectHelpers.java:33)
+	at com.microsoft.tfs.client.common.ui.teamexplorer.pages.TeamExplorerHomePage$4.linkActivated(TeamExplorerHomePage.java:157)
+	at org.eclipse.ui.forms.widgets.AbstractHyperlink.handleActivate(AbstractHyperlink.java:215)
+	at org.eclipse.ui.forms.widgets.AbstractHyperlink.handleMouseUp(AbstractHyperlink.java:309)
+	at org.eclipse.ui.forms.widgets.AbstractHyperlink.lambda$3(AbstractHyperlink.java:117)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4213)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1037)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4030)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3630)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1158)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1047)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:658)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:557)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:154)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:150)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:657)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1447)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1420)
+
+2021/01/29 08:33:21.197 MST [1] ! com.ibm.cics.eclipse.common.logging.ToJavaEclipseLogListener.logging() [java.lang.NoClassDefFoundError: Could not initialize class com.microsoft.alm.auth.oauth.OAuth2Authenticator]
+java.lang.NoClassDefFoundError: Could not initialize class com.microsoft.alm.auth.oauth.OAuth2Authenticator
+	at com.microsoft.tfs.client.common.ui.helpers.CredentialsHelper.removeOAuth2Token(CredentialsHelper.java:205)
+	at com.microsoft.tfs.client.common.ui.helpers.CredentialsHelper.removeStaleOAuth2Token(CredentialsHelper.java:200)
+	at com.microsoft.tfs.client.common.ui.helpers.CredentialsHelper.getOAuthCredentials(CredentialsHelper.java:109)
+	at com.microsoft.tfs.client.common.ui.wizard.common.WizardServerSelectionPage.getAzureAccessToken(WizardServerSelectionPage.java:249)
+	at com.microsoft.tfs.client.common.ui.wizard.common.WizardServerSelectionPage.getUserAccounts(WizardServerSelectionPage.java:138)
+	at com.microsoft.tfs.client.common.ui.wizard.common.WizardServerSelectionPage.onPageFinished(WizardServerSelectionPage.java:112)
+	at com.microsoft.tfs.client.common.ui.framework.wizard.ExtendedWizardPage.getNextPage(ExtendedWizardPage.java:127)
+	at org.eclipse.jface.wizard.WizardDialog.nextPressed(WizardDialog.java:910)
+	at org.eclipse.jface.wizard.WizardDialog.buttonPressed(WizardDialog.java:468)
+	at org.eclipse.jface.dialogs.Dialog.lambda$0(Dialog.java:619)
+	at org.eclipse.swt.events.SelectionListener$1.widgetSelected(SelectionListener.java:84)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4213)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1037)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4030)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3630)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:823)
+	at org.eclipse.jface.window.Window.open(Window.java:799)
+	at com.microsoft.tfs.client.common.ui.teamexplorer.helpers.ConnectHelpers.connectToServer(ConnectHelpers.java:33)
+	at com.microsoft.tfs.client.common.ui.teamexplorer.pages.TeamExplorerHomePage$4.linkActivated(TeamExplorerHomePage.java:157)
+	at org.eclipse.ui.forms.widgets.AbstractHyperlink.handleActivate(AbstractHyperlink.java:215)
+	at org.eclipse.ui.forms.widgets.AbstractHyperlink.handleMouseUp(AbstractHyperlink.java:309)
+	at org.eclipse.ui.forms.widgets.AbstractHyperlink.lambda$3(AbstractHyperlink.java:117)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4213)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1037)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4030)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3630)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1158)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1047)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:658)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:557)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:154)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:150)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:657)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1447)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1420)
+
+2021/01/29 08:33:21.422 MST [1] ! com.ibm.cics.eclipse.common.logging.ToJavaEclipseLogListener.logging() [java.lang.NoClassDefFoundError: Could not initialize class com.microsoft.alm.auth.oauth.OAuth2Authenticator]
+java.lang.NoClassDefFoundError: Could not initialize class com.microsoft.alm.auth.oauth.OAuth2Authenticator
+	at com.microsoft.tfs.client.common.ui.helpers.CredentialsHelper.removeOAuth2Token(CredentialsHelper.java:205)
+	at com.microsoft.tfs.client.common.ui.helpers.CredentialsHelper.removeStaleOAuth2Token(CredentialsHelper.java:200)
+	at com.microsoft.tfs.client.common.ui.helpers.CredentialsHelper.getOAuthCredentials(CredentialsHelper.java:109)
+	at com.microsoft.tfs.client.common.ui.wizard.common.WizardServerSelectionPage.getAzureAccessToken(WizardServerSelectionPage.java:249)
+	at com.microsoft.tfs.client.common.ui.wizard.common.WizardServerSelectionPage.getUserAccounts(WizardServerSelectionPage.java:138)
+	at com.microsoft.tfs.client.common.ui.wizard.common.WizardServerSelectionPage.onPageFinished(WizardServerSelectionPage.java:112)
+	at com.microsoft.tfs.client.common.ui.framework.wizard.ExtendedWizardPage.getNextPage(ExtendedWizardPage.java:127)
+	at org.eclipse.jface.wizard.WizardDialog.nextPressed(WizardDialog.java:910)
+	at org.eclipse.jface.wizard.WizardDialog.buttonPressed(WizardDialog.java:468)
+	at org.eclipse.jface.dialogs.Dialog.lambda$0(Dialog.java:619)
+	at org.eclipse.swt.events.SelectionListener$1.widgetSelected(SelectionListener.java:84)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4213)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1037)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4030)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3630)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:823)
+	at org.eclipse.jface.window.Window.open(Window.java:799)
+	at com.microsoft.tfs.client.common.ui.teamexplorer.helpers.ConnectHelpers.connectToServer(ConnectHelpers.java:33)
+	at com.microsoft.tfs.client.common.ui.teamexplorer.pages.TeamExplorerHomePage$4.linkActivated(TeamExplorerHomePage.java:157)
+	at org.eclipse.ui.forms.widgets.AbstractHyperlink.handleActivate(AbstractHyperlink.java:215)
+	at org.eclipse.ui.forms.widgets.AbstractHyperlink.handleMouseUp(AbstractHyperlink.java:309)
+	at org.eclipse.ui.forms.widgets.AbstractHyperlink.lambda$3(AbstractHyperlink.java:117)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4213)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1037)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4030)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3630)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1158)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1047)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:658)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:557)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:154)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:150)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:657)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1447)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1420)
+
+2021/01/29 09:25:05.958 MST [1] ! com.ibm.cics.eclipse.common.logging.ToJavaEclipseLogListener.logging() [java.lang.NoClassDefFoundError: Could not initialize class com.microsoft.alm.auth.oauth.OAuth2Authenticator]
+java.lang.NoClassDefFoundError: Could not initialize class com.microsoft.alm.auth.oauth.OAuth2Authenticator
+	at com.microsoft.tfs.client.common.ui.helpers.CredentialsHelper.removeOAuth2Token(CredentialsHelper.java:205)
+	at com.microsoft.tfs.client.common.ui.helpers.CredentialsHelper.removeStaleOAuth2Token(CredentialsHelper.java:200)
+	at com.microsoft.tfs.client.common.ui.helpers.CredentialsHelper.getOAuthCredentials(CredentialsHelper.java:109)
+	at com.microsoft.tfs.client.common.ui.config.UITransportOAuthRunnable$OAuthCredentialsDialog.open(UITransportOAuthRunnable.java:78)
+	at com.microsoft.tfs.client.common.ui.config.UITransportAuthRunnable.run(UITransportAuthRunnable.java:56)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4005)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3633)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.block(ModalContext.java:166)
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:368)
+	at org.eclipse.jface.wizard.WizardDialog.run(WizardDialog.java:1033)
+	at com.microsoft.tfs.client.common.ui.framework.command.AbstractRunnableContextCommandExecutor.execute(AbstractRunnableContextCommandExecutor.java:84)
+	at com.microsoft.tfs.client.common.ui.tasks.ConnectTask.run(ConnectTask.java:132)
+	at com.microsoft.tfs.client.common.ui.wizard.common.WizardServerSelectionPage.openAccount(WizardServerSelectionPage.java:341)
+	at com.microsoft.tfs.client.common.ui.wizard.common.WizardServerSelectionPage.onPageFinished(WizardServerSelectionPage.java:126)
+	at com.microsoft.tfs.client.common.ui.framework.wizard.ExtendedWizardPage.getNextPage(ExtendedWizardPage.java:127)
+	at org.eclipse.jface.wizard.WizardDialog.nextPressed(WizardDialog.java:910)
+	at org.eclipse.jface.wizard.WizardDialog.buttonPressed(WizardDialog.java:468)
+	at org.eclipse.jface.dialogs.Dialog.lambda$0(Dialog.java:619)
+	at org.eclipse.swt.events.SelectionListener$1.widgetSelected(SelectionListener.java:84)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4213)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1037)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4030)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3630)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:823)
+	at org.eclipse.jface.window.Window.open(Window.java:799)
+	at com.microsoft.tfs.client.common.ui.teamexplorer.helpers.ConnectHelpers.connectToServer(ConnectHelpers.java:33)
+	at com.microsoft.tfs.client.common.ui.teamexplorer.pages.TeamExplorerHomePage$4.linkActivated(TeamExplorerHomePage.java:157)
+	at org.eclipse.ui.forms.widgets.AbstractHyperlink.handleActivate(AbstractHyperlink.java:215)
+	at org.eclipse.ui.forms.widgets.AbstractHyperlink.handleMouseUp(AbstractHyperlink.java:309)
+	at org.eclipse.ui.forms.widgets.AbstractHyperlink.lambda$3(AbstractHyperlink.java:117)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4213)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1037)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4030)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3630)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1158)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1047)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:658)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:557)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:154)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:150)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:657)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1447)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1420)
+
+com.ibm.cics.eclipse.common.runtime_3.0.0.202012021857
+2021/01/29 16:07:08.989 MST [1] > com.ibm.cics.core.comm.ExplorerSecurityHelper.setPassphraseManager()
+2021/01/29 16:07:08.989 MST [1] < com.ibm.cics.core.comm.ExplorerSecurityHelper.setPassphraseManager()
+2021/01/29 16:07:08.990 MST [1] > com.ibm.cics.core.comm.internal.ConnectionsPreferenceInitializer.initializeDefaultPreferences()
+2021/01/29 16:07:08.990 MST [1] < com.ibm.cics.core.comm.internal.ConnectionsPreferenceInitializer.initializeDefaultPreferences()
+2021/01/29 16:07:08.991 MST [1] > com.ibm.cics.core.connections.internal.PassphraseManager.getKeyStorePassphrase()
+2021/01/29 16:07:08.991 MST [1] < com.ibm.cics.core.connections.internal.PassphraseManager.getKeyStorePassphrase()
+2021/01/29 16:07:08.991 MST [1] > com.ibm.cics.core.connections.internal.PassphraseManager.getTrustStorePassphrase()
+2021/01/29 16:07:08.991 MST [1] < com.ibm.cics.core.connections.internal.PassphraseManager.getTrustStorePassphrase()
+2021/01/29 16:07:08.991 MST [1] > com.ibm.cics.core.comm.ExplorerSecurityHelper.getCurrentTrustStorePassphrase()
+2021/01/29 16:07:08.991 MST [1] < com.ibm.cics.core.comm.ExplorerSecurityHelper.getCurrentTrustStorePassphrase()
+2021/01/29 16:07:08.991 MST [1] > com.ibm.cics.core.connections.internal.PassphraseManager.getTrustStorePassphrase()
+2021/01/29 16:07:08.991 MST [1] < com.ibm.cics.core.connections.internal.PassphraseManager.getTrustStorePassphrase()
+2021/01/29 16:07:08.992 MST [1] > com.ibm.cics.core.comm.ExplorerKeyStoreManager.validateTrustStoreDetail()
+2021/01/29 16:07:09.035 MST [1] < com.ibm.cics.core.comm.ExplorerKeyStoreManager.validateTrustStoreDetail() []
+2021/01/29 16:07:09.039 MST [1] > com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.getLocalProviderPath()
+2021/01/29 16:07:09.039 MST [1] < com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.getLocalProviderPath() [D:/Test/.metadata/.plugins/com.ibm.cics.core.connections/local.xml]
+2021/01/29 16:07:09.042 MST [1] > com.ibm.cics.core.comm.ConnectionRegistry.readConnection() [ConfigurationElementHandle [name: connection, id: com.ibm.cics.zos.comm.connection.ftp, handle id: 33643, namespace: com.ibm.cics.zos.comm.ftp]]
+2021/01/29 16:07:09.043 MST [1] < com.ibm.cics.core.comm.ConnectionRegistry.readConnection() [added: com.ibm.cics.core.comm.internal.ConnectionDescriptor[z/OS FTP, com.ibm.cics.zos.comm.connection.ftp]]
+2021/01/29 16:07:09.043 MST [1] > com.ibm.cics.core.comm.ConnectionRegistry.readConnection() [ConfigurationElementHandle [name: connection, id: com.ibm.cics.zosmf.comm.connection, handle id: 33994, namespace: com.ibm.cics.zosmf.comm]]
+2021/01/29 16:07:09.043 MST [1] < com.ibm.cics.core.comm.ConnectionRegistry.readConnection() [added: com.ibm.cics.core.comm.internal.ConnectionDescriptor[z/OSMF, com.ibm.cics.zosmf.comm.connection]]
+2021/01/29 16:07:09.043 MST [1] > com.ibm.cics.core.comm.ConnectionRegistry.readConnection() [ConfigurationElementHandle [name: connection, id: com.ibm.ftt.cics.rse.RSE.connection, handle id: 34134, namespace: com.ibm.ftt.cics.rse]]
+2021/01/29 16:07:09.043 MST [1] < com.ibm.cics.core.comm.ConnectionRegistry.readConnection() [added: com.ibm.cics.core.comm.internal.ConnectionDescriptor[z/OS Remote System, com.ibm.ftt.cics.rse.RSE.connection]]
+2021/01/29 16:07:09.044 MST [1] > com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.addConnectionProvider() [com.ibm.cics.core.connections.internal.WritableFileConnectionProvider@2bb118ae]
+2021/01/29 16:07:09.044 MST [1] > com.ibm.cics.core.connections.AbstractConnectionProvider.addListener() [com.ibm.cics.core.connections.internal.ConnectionProviderRegistry$1@5e3a5f0c]
+2021/01/29 16:07:09.044 MST [1] > com.ibm.cics.common.util.EventManager.addListener() [com.ibm.cics.core.connections.internal.ConnectionProviderRegistry$1@5e3a5f0c]
+2021/01/29 16:07:09.044 MST [1] < com.ibm.cics.common.util.EventManager.addListener() [[com.ibm.cics.core.connections.internal.ConnectionProviderRegistry$1@5e3a5f0c]]
+2021/01/29 16:07:09.044 MST [1] < com.ibm.cics.core.connections.AbstractConnectionProvider.addListener()
+2021/01/29 16:07:09.044 MST [1] > com.ibm.cics.core.connections.AbstractConnectionProvider.refresh() [org.eclipse.core.runtime.NullProgressMonitor@5afaae7e]
+2021/01/29 16:07:09.045 MST [1] > com.ibm.cics.common.util.EventManager.notifyListeners() [com.ibm.cics.core.connections.IConnectionProvider$ConnectionProviderStatusChangedEvent@7bf997e0]
+2021/01/29 16:07:09.045 MST [1] Notifying: com.ibm.cics.core.connections.internal.ConnectionProviderRegistry$1@5e3a5f0c com.ibm.cics.common.util.EventManager.notifyListeners()
+2021/01/29 16:07:09.045 MST [1] < com.ibm.cics.common.util.EventManager.notifyListeners()
+2021/01/29 16:07:09.045 MST [1] < com.ibm.cics.core.connections.AbstractConnectionProvider.refresh() [Status OK: unknown code=0 OK null]
+2021/01/29 16:07:09.045 MST [1] > com.ibm.cics.common.util.EventManager.notifyListeners() [com.ibm.cics.core.connections.IConnectionProviderRegistry$ConnectionProviderAddedEvent@c950fd]
+2021/01/29 16:07:09.045 MST [1] < com.ibm.cics.common.util.EventManager.notifyListeners()
+2021/01/29 16:07:09.045 MST [1] < com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.addConnectionProvider()
+2021/01/29 16:07:09.046 MST [1] > com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.addPersistedFileConnectionProviders()
+2021/01/29 16:07:09.046 MST [1] < com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.addPersistedFileConnectionProviders()
+2021/01/29 16:07:09.046 MST [1] > com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.addExtensionPointProviders()
+2021/01/29 16:07:09.046 MST [1] > com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.readExtension() [org.eclipse.core.internal.registry.ExtensionHandle@8559]
+2021/01/29 16:07:09.046 MST [1] > com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.readElement() [ConfigurationElementHandle [name: connectionProvider, handle id: 34138, namespace: com.ibm.ftt.cics.rse]]
+2021/01/29 16:07:09.046 MST [1] > com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.readConnectionProvider() [ConfigurationElementHandle [name: connectionProvider, handle id: 34138, namespace: com.ibm.ftt.cics.rse]]
+2021/01/29 16:07:09.113 MST [1] > com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.addConnectionProvider() [com.ibm.ftt.cics.rse.connection.RSEConnectionProvider@280e4390]
+2021/01/29 16:07:09.113 MST [1] > com.ibm.cics.core.connections.AbstractConnectionProvider.addListener() [com.ibm.cics.core.connections.internal.ConnectionProviderRegistry$1@21262bde]
+2021/01/29 16:07:09.113 MST [1] > com.ibm.cics.common.util.EventManager.addListener() [com.ibm.cics.core.connections.internal.ConnectionProviderRegistry$1@21262bde]
+2021/01/29 16:07:09.113 MST [1] < com.ibm.cics.common.util.EventManager.addListener() [[com.ibm.cics.core.connections.internal.ConnectionProviderRegistry$1@21262bde]]
+2021/01/29 16:07:09.113 MST [1] < com.ibm.cics.core.connections.AbstractConnectionProvider.addListener()
+2021/01/29 16:07:09.113 MST [1] > com.ibm.cics.core.connections.AbstractConnectionProvider.refresh() [org.eclipse.core.runtime.NullProgressMonitor@3df7e309]
+2021/01/29 16:07:09.115 MST [1] > com.ibm.cics.common.util.EventManager.notifyListeners() [com.ibm.cics.core.connections.IConnectionProvider$ConnectionProviderStatusChangedEvent@6f5f892c]
+2021/01/29 16:07:09.115 MST [1] Notifying: com.ibm.cics.core.connections.internal.ConnectionProviderRegistry$1@21262bde com.ibm.cics.common.util.EventManager.notifyListeners()
+2021/01/29 16:07:09.115 MST [1] < com.ibm.cics.common.util.EventManager.notifyListeners()
+2021/01/29 16:07:09.115 MST [1] < com.ibm.cics.core.connections.AbstractConnectionProvider.refresh() [Status OK: unknown code=0 OK null]
+2021/01/29 16:07:09.115 MST [1] > com.ibm.cics.common.util.EventManager.notifyListeners() [com.ibm.cics.core.connections.IConnectionProviderRegistry$ConnectionProviderAddedEvent@1b2e841]
+2021/01/29 16:07:09.115 MST [1] < com.ibm.cics.common.util.EventManager.notifyListeners()
+2021/01/29 16:07:09.115 MST [1] < com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.addConnectionProvider()
+2021/01/29 16:07:09.115 MST [1] addedcom.ibm.ftt.cics.rse.connection.RSEConnectionProvider@280e4390 com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.readConnectionProvider()
+2021/01/29 16:07:09.115 MST [1] < com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.readConnectionProvider()
+2021/01/29 16:07:09.115 MST [1] < com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.readElement()
+2021/01/29 16:07:09.115 MST [1] < com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.readExtension()
+2021/01/29 16:07:09.115 MST [1] < com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.addExtensionPointProviders()
+2021/01/29 16:07:09.129 MST [1] > com.ibm.cics.core.connections.internal.ConnectionCredentialsManager.ConnectionCredentialsManager()
+2021/01/29 16:07:09.129 MST [1] > com.ibm.cics.common.util.EventManager.addListener() [com.ibm.cics.core.connections.internal.ConnectionCredentialsManager$1@3390621a]
+2021/01/29 16:07:09.129 MST [1] < com.ibm.cics.common.util.EventManager.addListener() [[com.ibm.cics.core.connections.internal.ConnectionCredentialsManager$1@3390621a]]
+2021/01/29 16:07:09.129 MST [1] < com.ibm.cics.core.connections.internal.ConnectionCredentialsManager.ConnectionCredentialsManager() [D:/Test/.metadata/.plugins/com.ibm.cics.core.connections/credentialMappings.xml]
+2021/01/29 16:07:09.130 MST [1] > com.ibm.cics.core.connections.internal.ConnectionManager.<init>()
+2021/01/29 16:07:09.130 MST [1] > com.ibm.cics.common.util.EventManager.addListener() [com.ibm.cics.core.connections.internal.ConnectionManager$1@235d46b2]
+2021/01/29 16:07:09.130 MST [1] < com.ibm.cics.common.util.EventManager.addListener() [[com.ibm.cics.core.connections.internal.ConnectionManager$1@235d46b2]]
+2021/01/29 16:07:09.130 MST [1] > com.ibm.cics.core.connections.AbstractConnectionProvider.getConnections()
+2021/01/29 16:07:09.130 MST [1] < com.ibm.cics.core.connections.AbstractConnectionProvider.getConnections() [[]]
+2021/01/29 16:07:09.130 MST [1] > com.ibm.cics.core.connections.AbstractConnectionProvider.addListener() [com.ibm.cics.core.connections.internal.ConnectionManager$CacheUpdatingListener@1644cc2d]
+2021/01/29 16:07:09.130 MST [1] > com.ibm.cics.common.util.EventManager.addListener() [com.ibm.cics.core.connections.internal.ConnectionManager$CacheUpdatingListener@1644cc2d]
+2021/01/29 16:07:09.131 MST [1] < com.ibm.cics.common.util.EventManager.addListener() [[com.ibm.cics.core.connections.internal.ConnectionProviderRegistry$1@21262bde, com.ibm.cics.core.connections.internal.ConnectionManager$CacheUpdatingListener@1644cc2d]]
+2021/01/29 16:07:09.131 MST [1] < com.ibm.cics.core.connections.AbstractConnectionProvider.addListener()
+2021/01/29 16:07:09.131 MST [1] > com.ibm.cics.core.connections.AbstractConnectionProvider.getConnections()
+2021/01/29 16:07:09.131 MST [1] < com.ibm.cics.core.connections.AbstractConnectionProvider.getConnections() [[]]
+2021/01/29 16:07:09.131 MST [1] > com.ibm.cics.core.connections.AbstractConnectionProvider.addListener() [com.ibm.cics.core.connections.internal.ConnectionManager$CacheUpdatingListener@f83616]
+2021/01/29 16:07:09.131 MST [1] > com.ibm.cics.common.util.EventManager.addListener() [com.ibm.cics.core.connections.internal.ConnectionManager$CacheUpdatingListener@f83616]
+2021/01/29 16:07:09.131 MST [1] < com.ibm.cics.common.util.EventManager.addListener() [[com.ibm.cics.core.connections.internal.ConnectionProviderRegistry$1@5e3a5f0c, com.ibm.cics.core.connections.internal.ConnectionManager$CacheUpdatingListener@f83616]]
+2021/01/29 16:07:09.131 MST [1] < com.ibm.cics.core.connections.AbstractConnectionProvider.addListener()
+2021/01/29 16:07:09.131 MST [1] > com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.addListener() [com.ibm.cics.core.connections.internal.ConnectionManager$2@162a5c4c]
+2021/01/29 16:07:09.131 MST [1] > com.ibm.cics.common.util.EventManager.addListener() [com.ibm.cics.core.connections.internal.ConnectionManager$2@162a5c4c]
+2021/01/29 16:07:09.131 MST [1] < com.ibm.cics.common.util.EventManager.addListener() [[com.ibm.cics.core.connections.internal.ConnectionManager$2@162a5c4c]]
+2021/01/29 16:07:09.131 MST [1] < com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.addListener()
+2021/01/29 16:07:09.131 MST [1] < com.ibm.cics.core.connections.internal.ConnectionManager.<init>() [com.ibm.cics.core.connections.internal.ConnectionManager@5f0bf0ed]
+2021/01/29 16:07:09.132 MST [1] > com.ibm.cics.common.util.EventManager.addListener() [com.ibm.cics.core.connections.internal.DefaultConnectionService$1@823f978]
+2021/01/29 16:07:09.132 MST [1] < com.ibm.cics.common.util.EventManager.addListener() [[com.ibm.cics.core.connections.internal.DefaultConnectionService$1@823f978]]
+2021/01/29 16:07:09.132 MST [1] > com.ibm.cics.common.util.EventManager.addListener() [com.ibm.cics.core.connections.internal.DefaultConnectionDeserializer$1@38affd02]
+2021/01/29 16:07:09.132 MST [1] < com.ibm.cics.common.util.EventManager.addListener() [[com.ibm.cics.core.connections.internal.DefaultConnectionDeserializer$1@38affd02]]
+2021/01/29 16:07:09.136 MST [1] > com.ibm.cics.common.util.EventManager.addListener() [com.ibm.cics.core.connections.internal.ConnectionService$2@533690d]
+2021/01/29 16:07:09.136 MST [1] < com.ibm.cics.common.util.EventManager.addListener() [[com.ibm.cics.core.connections.internal.DefaultConnectionService$1@823f978, com.ibm.cics.core.connections.internal.ConnectionService$2@533690d]]
+2021/01/29 16:07:09.137 MST [1] > com.ibm.cics.common.util.EventManager.addListener() [com.ibm.cics.core.connections.internal.InternalConnectionsPlugin$1@3bf306d3]
+2021/01/29 16:07:09.137 MST [1] < com.ibm.cics.common.util.EventManager.addListener() [[com.ibm.cics.core.connections.internal.InternalConnectionsPlugin$1@3bf306d3]]
+2021/01/29 16:07:09.138 MST [1] > com.ibm.cics.common.util.EventManager.addListener() [com.ibm.cics.core.connections.ConnectionWidgetManager$2@257da215]
+2021/01/29 16:07:09.138 MST [1] < com.ibm.cics.common.util.EventManager.addListener() [[com.ibm.cics.core.connections.internal.InternalConnectionsPlugin$1@3bf306d3, com.ibm.cics.core.connections.ConnectionWidgetManager$2@257da215]]
+2021/01/29 16:07:09.138 MST [1] > com.ibm.cics.common.util.EventManager.addListener() [com.ibm.cics.core.connections.ConnectionWidgetManager$1@5aa461]
+2021/01/29 16:07:09.138 MST [1] < com.ibm.cics.common.util.EventManager.addListener() [[com.ibm.cics.core.connections.internal.DefaultConnectionService$1@823f978, com.ibm.cics.core.connections.internal.ConnectionService$2@533690d, com.ibm.cics.core.connections.ConnectionWidgetManager$1@5aa461]]
+2021/01/29 16:07:09.138 MST [1] > com.ibm.cics.core.connections.ConnectionWidgetManager.initializeStates()
+2021/01/29 16:07:09.138 MST [1] < com.ibm.cics.core.connections.ConnectionWidgetManager.initializeStates()
+2021/01/29 16:07:15.508 MST [53] > com.ibm.cics.core.connections.internal.ConnectionsStartup.earlyStartup() [com.ibm.cics.core.connections.internal.ConnectionsStartup@346c3dcd]
+2021/01/29 16:07:15.509 MST [53] < com.ibm.cics.core.connections.internal.ConnectionsStartup.earlyStartup()
+2021/01/29 16:07:15.524 MST [53] - com.ibm.cics.zos.model.ZOSConnectable.<init>() [com.ibm.cics.zos.model.ZOSConnectable@40a020f]
+2021/01/29 16:07:16.255 MST [1]  com.ibm.cics.eclipse.common.AbstractContextManager.AbstractConnectionContextManager()<init>()
+2021/01/29 16:07:16.256 MST [1] > com.ibm.cics.eclipse.common.AbstractContextManager.deactivate() [com.ibm.cics.zos.explorer.cancreatedataset.context]
+2021/01/29 16:07:16.256 MST [1] < com.ibm.cics.eclipse.common.AbstractContextManager.deactivate() [com.ibm.cics.zos.explorer.cancreatedataset.context]
+2021/01/29 16:07:16.256 MST [1] > com.ibm.cics.common.util.EventManager.addListener() [com.ibm.cics.zos.ui.ZOSConnectionContextManager$1@4f37f2e5]
+2021/01/29 16:07:16.256 MST [1] < com.ibm.cics.common.util.EventManager.addListener() [[com.ibm.cics.core.connections.internal.InternalConnectionsPlugin$1@3bf306d3, com.ibm.cics.core.connections.ConnectionWidgetManager$2@257da215, com.ibm.cics.zos.ui.ZOSConnectionContextManager$1@4f37f2e5]]
+2021/01/29 16:07:16.307 MST [1] - com.ibm.cics.core.connections.internal.ConnectionsStartup.earlyStartup() [com.ibm.cics.core.connections.internal.ConnectionsStartup$1@157affc1, org.eclipse.ui.internal.WorkbenchWindow@19993ed]
+2021/01/29 16:07:16.308 MST [1] > com.ibm.cics.common.util.EventManager.addListener() [com.ibm.cics.core.connections.internal.ConnectionsStartup$1$1@43c4daea]
+2021/01/29 16:07:16.308 MST [1] < com.ibm.cics.common.util.EventManager.addListener() [[com.ibm.cics.core.connections.internal.InternalConnectionsPlugin$1@3bf306d3, com.ibm.cics.core.connections.ConnectionWidgetManager$2@257da215, com.ibm.cics.zos.ui.ZOSConnectionContextManager$1@4f37f2e5, com.ibm.cics.core.connections.internal.ConnectionsStartup$1$1@43c4daea]]
+2021/01/29 16:09:27.069 MST [64] ! com.ibm.cics.eclipse.common.logging.ToJavaEclipseLogListener.logging() [org.eclipse.equinox.p2.core.ProvisionException: No repository found at jar:file:/D:/OneDrive%20-%20U-Haul%20International/Uhaul%20Installation/TFSEclipsePlugin-UpdateSiteArchive-14.135.0.zip!/.]
+org.eclipse.equinox.p2.core.ProvisionException: No repository found at jar:file:/D:/OneDrive%20-%20U-Haul%20International/Uhaul%20Installation/TFSEclipsePlugin-UpdateSiteArchive-14.135.0.zip!/.
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.fail(AbstractRepositoryManager.java:396)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:117)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.fail(CachingRepositoryManager.java:367)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:258)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Metadata.loadRepository(CachingRepositoryManager.java:495)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.doLoad(LoadMetadataRepositoryJob.java:126)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.runModal(LoadMetadataRepositoryJob.java:110)
+	at org.eclipse.equinox.internal.p2.ui.sdk.PreloadingRepositoryHandler$1.runModal(PreloadingRepositoryHandler.java:84)
+	at org.eclipse.equinox.p2.operations.ProvisioningJob.run(ProvisioningJob.java:190)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
