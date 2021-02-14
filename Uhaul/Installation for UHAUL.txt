@@ -1,0 +1,189 @@
+I. Software
+0. Backupper
+AOMEI backupper: add WinPE to the boot menu
+1. Basic software
+
+Google chrome: set default app for Chrome
+
+(install Calibre before Acrobat Reader otherwise you will have to reassociate .pdf with Acrobat) 
+WinDj viewer
+Calibre Chrome extension
+Acrobat: set default app for PDF
+
+Office
+- Create a configuration.xml file at: https://config.office.com/
+- Download Office Deployment Tool at: https://www.microsoft.com/en-us/download/details.aspx?id=49117
+- Run the deployment tool and choose the folder that contain the Deployment tool for extraction.
+  YOu will see setup.exe
+- In a cmd prompt: setup /configure path/to/configuration/file.xml
+
+Internet Download Manager: 69Jai-xspvm-i4rr6-csxra
+
+7z: add extension to 7Z
+
+Notepadd++ and add "Open with Notepad++" to the context menu 
+
+K-lite codec pack
+
+uTorrent
+
+Dictionary
+
+unikey
+
+HP LaserJet Pro MFP M148dw and choose basic driver 70 MB (the file name is: LJM148M149_UWWL_3-1_Basicx64_44.5.2693)
+
+Skype
+
+VirtualBox
+
+Team Viewer
+
+2. Programming software:
+
+2.1 Git
+
+2.2 Setting up (but not installing) JDK
+Download and unzip Oracle OpenJDK
+
+2.3 Visual Studio Code
+VS support portable mode!
+Extension: 
+- Java Extension Pack
+- HTML CSS Support
+Configure JDK for Java Extension Pack:
+At the lower left corner, click on Setting icon and then Setting, type java.home and see the given example to enter the path to JDK.
+The path to JDK shouldn't include "bin" folder.
+
+2.4 MySQL
+
+2.5 Tomcat
+
+II. Installation for Uhaul
+
+0. Teams on web
+Log in Teams on web (by Chrome) and then "..."/More Tools/Create shortcut and then remember to tick "Open as window"
+
+1. VPN
+VPN for Windows:
+Step 1: Run 1299645.xpf with password 1299645B  as your smid number. Choose local machine!
+Step 2: Download AnyConnect from Uhaul: https://uhaul.net/tools/remote_access/remote_download.aspx?status=NA== 
+(if the link is broken, browse: uhaul.net -- Tools -- Software)
+VPN Link: : https://convpn.amerco.com/CERTAUTH password 1299645B
+
+
+VPN for Linux:
+Install 4.6 first and then install 4.8, which will fail but eventually it will be fixed.
+Install 4.5, replace lib32ncurses5 by 
+http://tony.coadou.fr/2017/05/09/install-cisco-anyconnect-and-pfx-certificate-on-kali-linux-64/
+
+2. Mainframe emulator:
+Run AnnyConnect first and log in the VPN
+Run mapDrive.bat 
+Run the "install.bat" (note you need to run install.bat first)
+    username: uhi\1299645
+    password:
+Install PASSPORT WEB TO HOST for Internet Explorer
+If the process print an error, ignore it and use the shortcut mainframe.lnk
+
+3. JDK 8: https://adoptopenjdk.net/releases.html?variant=openjdk8&jvmVariant=hotspot
+(note Adopt is similar to Oracle Open JDK. Use ziped package instead of MSI)
+
+4. Eclipse 2020-06 J2E to use only JDK 8 otherwise IBM zOS explorer will not work
+
+To remove installed Eclipse: Delete .p2, .eclipse, .tooling folders in users/name
+You can install Eclipse by an installer or by a Non-install package (portable)
+In the case of non-install pacakge: unzip the package, modify eclipse.ini by adding the following 2 lines to before -vmargs (note -- means comment)
+-vm
+Path\to\JDK\bin\javaw.exe
+
+5. TFS
+-  Install TFS plug in
+Have token for TFS at: https://dev.azure.com/uhaul/_usersSettings/tokens
+token: bnbk26sxwdi27l4gsvn5n6gbprvftaad4ef4h4x565wo64qce32a - 30 12 2021
+
+For TFS that works with Java 11: Download the zip file for TFS and then install from the zip file INSTEAD OF from a repository.
+For OLD TFS that doesn't work with Jav 11: http://dl.microsoft.com/eclipse/tfs
+
+-  Import Uhaul's TFS OPERATION repos 
+Double check if TFS repository is mapped to the previous Eclipse working space. If so, remove the mapping.
+Even when you don't see an existing mapping, you still have to double check where Uhaul repos is imported TO; otherwise they will saved in an old Eclipse TFS. 
+
+-  Set up dependency 
+  datacom_developement, datasources_development
+  - If have more than 2 projects, be careful with circular dependencies. 
+  - Note that use EXTERNAL JARS instead of creating a Libarary otherwise exporting is not working. 
+  - If has any problem with jar files, just remove and then re-add them
+
+"Error: Could not find or load main class" -- cannot find the compiled bytecode .class file. 
+This is because the program OR a class that the program calls has error and doesn't compile.
+
+If you don't see any error in your program, but still Pay attention to "PROBLEMS" tab (often close to Console tab).
+	
+6. IBM Explorer for z/OS: 
+Link to the IBM plug-in in Eclipse's repository:
+https://public.dhe.ibm.com/ibmdl/export/pub/software/htp/zos/tools/aqua3.2/
+(Guide: https://developer.ibm.com/mainframe/products/downloads/eclipse-tools/)
+Need only IBM Explorer for z/OS
+After installation, choose Windows/Show View/Remote System/Remote System
+New Connection - Host name: Mainframe; Connection name: Mainframe; Default User ID: T299645;
+
+7. DBeaver
+install DBeaver as an Eclipse plugin at https://marketplace.eclipse.org/content/dbeaver 
+For Datacom, create a Datacom driver before creating a database connection:
+Choose Database/DriverManager/New and then Add File, Find Class, and enter Driver Name
+For SQL sever, use the existing database driver
+
+SQL PROD
+Host: opssql02.uhaul.amerco.org
+Port: 1433
+Database/Schema: EquipmentRepository
+User name: vpoperations
+Password: W7cv89q25x
+
+SQL ERTEST
+Host: opssqld01.uhaul.amerco.org
+Port: 1433
+Database/Schema: EquipmentRepositoryTEST
+User name: vpoperations
+Password: W7cv89q25x
+
+and then copy the connection above to: 
+SQL TEST with Database/Schema: EquipmentRepository
+SQL QA   with Database/Schema: EquipmentRepositoryQA
+
+Datacom - PROD
+Host: jdbc:datacom://mainframe.uhi.amerco:5465/ServerName=DBSRVRP,ApplicationID=CCI3,SystemID=UNIQECC1,HostName=mainframe.uhi.amerco,HostPort=5465,ConnectType=TCP
+Username=OPERNET
+Password=+7CW212
+
+Copy the above to:
+
+Datacom - TEST with
+Host = "jdbc:datacom://mainframe.uhi.amerco:5466/ServerName=DBSRVRT,ApplicationID=CCI0,SystemID=UNIQECC1,HostName=mainframe.uhi.amerco,HostPort=5466,ConnectType=TCP"
+Password=7CW212
+
+Datacom - QA
+Host = "jdbc:datacom://mainframe.uhi.amerco:5464/ServerName=DBSRVRM,ApplicationID=CCI2,SystemID=UNIQECC1,HostName=mainframe.uhi.amerco,HostPort=5464,ConnectType=TCP"
+Password=7CW212";
+
+Oracle - CESPROD
+host: cesoraproda.uhaul.amerco.org
+databse: CESPROD
+username: GLACCT
+ 
+
+8. 
+SQL server Management Studio
+
+SQLServer
+TEST: opssqld01.uhaul.amerco.org  
+PROD: opssql02.uhaul.amerco.org
+EquipmentRepository_user
+x3TVFZfm
+vpoperations
+W7cv89q25x
+MySQL
+
+
+
